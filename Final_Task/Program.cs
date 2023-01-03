@@ -4,6 +4,7 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
+
 // Console.Write("Введите положительное число:  ");
 // int n = Convert.ToInt32(Console.ReadLine());
 // int m = 1;
@@ -29,6 +30,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
+
 // Console.Write("Введите положительное число:  ");
 // int n = Convert.ToInt32(Console.ReadLine());
 // int SumRec (int n)
@@ -37,6 +39,7 @@
 //     else return n + SumRec(n - 1);
 // }
 // Console.WriteLine(SumRec(n));
+
 
 // _________________________________________________________________________________________________
 
@@ -61,4 +64,4 @@ int Akkerman(int m, int n)
     else
         return Akkerman(m - 1, Akkerman(m, n - 1));
 }
-Console.WriteLine("A(m, n) = " +Akkerman(m, n));
+Console.WriteLine("A(m,n) = " +Akkerman(m, n));
